@@ -13,6 +13,6 @@ main {
   grid-auto-rows: 200px 200px;
 }
 
-#introgrid {
+#main introgrid {
   grid-column: 1/3;
 }
