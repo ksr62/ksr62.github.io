@@ -1,69 +1,44 @@
 body {
-  font-family:'Balsamiq Sans', cursive;
-  font-weight: lighter;
-  line-height: 0.5cm;
-}
-header {
-  text-align: center;
-  background-color: rgb(170, 36, 34);
-  color: #ffffff;
-  text-decoration:  underline double rgb(0, 166, 81);
-  font-family:'Architects Daughter', cursive;
-  padding: 8px;
-}
-
-main {
+  max-width: 960px;
+  margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat (3, 300px);
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
   grid-template-areas:
-    "aerialpic aerialpic intro"
-    "geography geography environment"
-    "government government elections";
-  color: black;
+    "masthead masthead masthead"
+    "navigation intro intro"
+    "pic pic geography"
+    "government government election"
+    "footer footer footer";
 }
 
-#aerialpic {
-  grid-area: aerialpic;
-  margin: auto;
+header {
+  grid-area: masthead;
 }
-#intro {
+
+nav {
+  grid-area: navigation;
+}
+
+h2 {
   grid-area: intro;
-  border-style: solid;
-  border-width: 10px;
-  border-color: rgb(211, 73, 78);
-  border-radius: 10px;
-  padding: 10px;
-  margin-top:5px;
+}
+
+#pic {
+  grid-area: pic;
 }
 #geography {
   grid-area: geography;
-}
-
-#environment {
-  grid-area: environment;
 }
 
 #government {
   grid-area: government;
 }
 
-#elections {
-  grid-area: elections;
+#election {
+  grid-area: election;
 }
 
-footer {
-  color: rgb(0, 166, 81);
+#introtag {
   text-align: center;
 }
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: rgb(170, 36, 34);
-  padding: 10px;
-  display: inline-block;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline double;
