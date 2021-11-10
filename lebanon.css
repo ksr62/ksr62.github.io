@@ -7,7 +7,7 @@ header {
   text-align: center;
   background-color: rgb(170, 36, 34);
   color: #ffffff;
-  text-decoration: underline rgb(0, 166, 81);
+  text-decoration:  underline double rgb(0, 166, 81);
   font-family:'Architects Daughter', cursive;
   padding: 8px;
 }
