@@ -5,6 +5,7 @@ header {
   text-align: center;
   color: #ffffff;
   text-decoration: underline rgb(0, 166, 81);
+  font-family:'Architects Daughter', cursive;
 }
 
 main {
@@ -36,10 +37,6 @@ main {
 
 #elections {
   grid-area: elections;
-}
-
-#h2introtag {
-  text-align: center;
 }
 
 footer {
