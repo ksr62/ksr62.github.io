@@ -10,29 +10,34 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat (3, 300px);
-  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "aerialpic aerialpic intro"
+    "geography geography environment"
+    "government government elections";
 }
 
 #aerialpic {
-  box-sizing:content-box;
-  width: 300px;
-  grid-column: 1/3
+  grid-area: aerialpic;
 }
 #intro {
-  grid-column: 3/4;
+  grid-area: intro;
 }
 #geography {
-  grid-column: 1/ 3;
+  grid-area: geography;
 }
 
 #environment {
-  grid-column: 3/4;
+  grid-area: environment;
 }
 
 #government {
-  grid-column: 1 / span 2;
+  grid-area: government;
 }
 
 #elections {
-  grid-column: 3/4;
+  grid-area: elections;
+}
+
+footer {
+  text-align: center;
 }
