@@ -39,6 +39,10 @@ h2 {
   grid-area: election;
 }
 
+footer {
+  grid-area: footer;
+}
+
 #introtag {
   text-align: center;
 }
