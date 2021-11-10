@@ -1,7 +1,7 @@
 body{
-  background-color:#ffffff;
+  background-color: #fffff;
 }
 header {
-  text-align: right;
-  color: (237, 28, 36);
+  text-align: center;
+  color: rbg(237, 28, 36);
 }
