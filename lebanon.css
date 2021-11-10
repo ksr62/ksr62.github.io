@@ -38,6 +38,10 @@ main {
   grid-area: elections;
 }
 
+h2 {
+  text-align: center;
+}
+
 footer {
   text-align: center;
 }
