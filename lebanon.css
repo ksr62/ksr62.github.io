@@ -24,7 +24,7 @@ main {
 
 #aerialpic {
   grid-area: aerialpic;
-  align-content: center;
+  margin: auto;
 }
 #intro {
   grid-area: intro;
