@@ -6,3 +6,9 @@ header {
   color: rgb(237, 28, 36);
   text-decoration: underline rgb(0, 166, 81);
 }
+
+main {
+  display: grid;
+  grid-template-columns: repeat (3, 300px);
+  grid-auto-rows: 200px 200px;
+}
