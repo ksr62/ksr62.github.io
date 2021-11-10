@@ -13,14 +13,10 @@ main {
   grid-template-rows: 200px 200px;
 }
 
-#coastpic{
+#aerialpic {
   grid-column: 1/3
 }
 #intro {
-  grid-column: 3/4;
-}
-
-#aerialpic {
   grid-column: 3/4;
 }
 #geography {
