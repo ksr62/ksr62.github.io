@@ -27,6 +27,12 @@ main {
 }
 #intro {
   grid-area: intro;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(211, 73, 78);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
 }
 #geography {
   grid-area: geography;
