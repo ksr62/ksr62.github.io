@@ -56,3 +56,15 @@ footer {
   color: rgb(0, 166, 81);
   text-align: center;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(170, 36, 34);
+  padding: 10px;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline double;
