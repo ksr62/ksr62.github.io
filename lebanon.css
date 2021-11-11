@@ -93,6 +93,7 @@ main {
   padding: 10px;
   background-color: #eee;
   max-width: 60ch;
+  justify-content: center;
 }
 #introtag {
   text-align: center;
