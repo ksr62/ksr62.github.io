@@ -78,7 +78,7 @@ main {
   background-color: #eee;
   border-style: solid;
   border-color: rgb(123, 178, 116);
-  border-width: 2px;
+  border-width: 5px;
 }
 
 
@@ -97,9 +97,6 @@ main {
   padding: 10px;
   background-color: #eee;
   max-width: 60ch;
-  border-style: solid;
-  border-color: rgb(123, 178, 116);
-  border-width: 5px;
 }
 #introtag {
   text-align: center;
