@@ -82,6 +82,7 @@ main {
   padding: 10px;
   background-color: #eee;
   justify-content: center;
+  align-content: center;
   /* WANT THIS CENTERED */
 }
 
@@ -92,6 +93,7 @@ main {
   background-color: #eee;
   max-width: 60ch;
   justify-content: center;
+  align-content: center;
 }
 #introtag {
   text-align: center;
