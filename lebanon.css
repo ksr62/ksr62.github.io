@@ -82,7 +82,7 @@ figcaption {
   color: rgb(74, 162, 91);
 }
 
-a:link,
+a:default,
 a:visited {
   text-decoration: none;
   color: rgb(139, 0, 0);
