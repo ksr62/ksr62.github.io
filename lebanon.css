@@ -79,7 +79,7 @@ main {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #ffffff;
+  color: rgb(139, 0, 0);
   padding: 10px;
   display: inline-block;
 }
