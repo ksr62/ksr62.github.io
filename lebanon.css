@@ -59,6 +59,7 @@ main {
 #image {
   max-width: 500%;
   margin-left: 140px;
+  width: 100%;
 }
 
 #lebanon-flag {
