@@ -101,8 +101,7 @@ main {
   text-align: center;
 }
 #figcaption {
-  justify-content: center;
-  text-align: center;
+  text-align: justify;
 }
 
 a:link,
