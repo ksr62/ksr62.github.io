@@ -11,7 +11,8 @@ body {
   }
 
 
-h2 {
+h2,
+h3 {
   text-decoration: double underline 3px rgb(211, 73, 78);
   margin-top: 0;
 }
