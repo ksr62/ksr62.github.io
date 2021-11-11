@@ -57,7 +57,10 @@ main {
 
 #image {
   max-width: 500%;
-  margin-left: auto;
+}
+
+#lebanon-flag {
+  margin-left: 120px;
 }
 
 #geo {
