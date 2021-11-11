@@ -79,6 +79,9 @@ main {
   background-color: #eee;
   max-width: 60ch;
 }
+#introtag {
+  text-align: center;
+}
 
 a:link,
 a:visited {
