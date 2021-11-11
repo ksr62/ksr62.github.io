@@ -68,7 +68,7 @@ main {
 }
 
 #intro {
-  padding-left: 50px;
+  padding-left: 45px;
   border-style: solid;
   border-color: rgb(123, 178, 116);
   border-width: 10px;
@@ -81,6 +81,7 @@ main {
   margin-left: 20px;
   padding: 10px;
   background-color: #eee;
+  justify-content: center;
   /* WANT THIS CENTERED */
 }
 
@@ -90,6 +91,7 @@ main {
   padding: 10px;
   background-color: #eee;
   max-width: 60ch;
+  justify-content: center;
 }
 #introtag {
   text-align: center;
