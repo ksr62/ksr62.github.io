@@ -53,10 +53,12 @@ main {
 
   margin-top: 40px;
 }
+
 #image {
   max-width: 500%;
   margin-left: 20px;
 }
+
 #geo {
     max-width: 60ch;
     margin-left: 20px;
