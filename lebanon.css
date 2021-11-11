@@ -16,6 +16,11 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  text-decoration: underline 3px rgb(123, 178, 116);
+  margin-top: 0;
+}
+
 main {
   margin: 20px auto;
 }
