@@ -29,7 +29,7 @@ main {
 
 .introduction_grid_2x1 {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
   gap: 20px;
 }
