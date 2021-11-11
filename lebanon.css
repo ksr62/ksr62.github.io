@@ -94,6 +94,9 @@ main {
 #introtag {
   text-align: center;
 }
+#figcaption {
+  text-align: center;
+}
 
 a:link,
 a:visited {
