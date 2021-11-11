@@ -45,8 +45,8 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 20px;
-  max-width: 60ch;
-  margin-top: 60px;
+
+  /* margin-top: 60px; */
 }
 
 
