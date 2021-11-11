@@ -52,6 +52,7 @@ main {
 
 #image {
   max-width: 500%;
+  padding-left: 20px;
 }
 
 #intro {
