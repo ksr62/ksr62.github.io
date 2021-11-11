@@ -55,6 +55,11 @@ main {
   margin-top: 40px;
 }
 
+#image {
+  max-width: 500%;
+  margin-left: 120px;
+}
+
 #geo {
     max-width: 60ch;
     margin-left: 20px;
@@ -62,10 +67,6 @@ main {
     background-color: #eee;
 }
 
-#image {
-  max-width: 500%;
-  margin-left: 120px;
-}
 
 #intro {
   padding-left: 45px;
