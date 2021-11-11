@@ -76,6 +76,21 @@ main {
   max-width: 60ch;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: rgb(123, 178, 116);
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  text-decoration: double underline;
+  color: #043a33;
+}
+
 footer {
   background-color: rgb(211, 73, 78);
   text-align: center;
