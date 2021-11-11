@@ -76,6 +76,9 @@ main {
 #intro {
   padding-left: 45px;
   background-color: #eee;
+  border-style: solid;
+  border-color: rgb(211, 73, 78)
+  border-width: 2px;
 }
 
 
@@ -86,7 +89,7 @@ main {
   background-color: #eee;
   border-style: solid;
   border-color: rgb(123, 178, 116);
-  border-width: 8px;
+  border-width: 5px;
   /* WANT THIS CENTERED */
 }
 
