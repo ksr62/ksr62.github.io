@@ -83,7 +83,7 @@ main {
   margin-left: 20px;
   padding: 10px;
   background-color: #eee;
-  justify-content: center;
+  align-content: center;
   /* grid-column: 1/3; */
 }
 
@@ -93,7 +93,7 @@ main {
   padding: 10px;
   background-color: #eee;
   max-width: 60ch;
-  justify-content: center;
+  align-content: center;
 }
 #introtag {
   text-align: center;
