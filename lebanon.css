@@ -42,6 +42,10 @@ main {
 }
 
 
+#imagesize {
+  max-width: 30%
+}
+
 #image {
   max-width: 100%;
 }
