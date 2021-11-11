@@ -81,7 +81,7 @@ main {
 #gov {
   margin-top: 20px;
   margin-left: 20px;
-  padding: 10px 10px 10px 0px;
+  padding: 10px 0px 10px 10px;
   background-color: #eee;
   /* grid-column: 1/3; */
 }
