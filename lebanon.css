@@ -64,11 +64,13 @@ main {
 
 
 #gov {
+  background-color: #eee;
   /* grid-column: 1/3; */
 }
 
 #election {
   /* grid-column: 3/4; */
+  background-color: #eee;
   max-width: 60ch;
 }
 
