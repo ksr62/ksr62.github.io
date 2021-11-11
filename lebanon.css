@@ -28,7 +28,7 @@ main {
 
 .introduction_grid_2x1 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr;
   gap: 20px;
 }
