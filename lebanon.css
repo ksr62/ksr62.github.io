@@ -1,109 +1,84 @@
+body {
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead masthead"
+    "intro pic"
+    "flag geography"
+    "government election"
+    "footer footer";
+  font-family: "Slabo 27px", serif;
+}
+
 header {
-  font-family: "Architects Daughter", cursive;
+  grid-area: masthead;
   background-color: rgb(211, 73, 78);
   color: #ffffff;
-  padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 20px;
+  font-family: "Bebas Neue", cursive;
 }
-body {
-  font-family: "Balsamiq Sans", cursive;
-  line-height: 1.5;
-  background-color: rgba(211, 73, 78, 0.5);
-  }
-
 
 h2 {
-  text-decoration: double underline 3px rgb(211, 73, 78);
+  text-decoration: dashed underline 3px rgb(211, 73, 78);
   margin-top: 0;
 }
-
-h3 {
-  text-decoration: underline 3px rgb(123, 178, 116);
-  text-align: center;
-  margin-top: 0;
-}
-
-h4 {
-  text-decoration: underline 2px rgb(123, 178, 116);
-  text-align: center;
-  margin-top: 0;
-}
-
-main {
-  margin: 20px auto;
-}
-
-.introduction_grid_2x1 {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr;
-  gap: 20px;
-}
-
-.bottom_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 20px;
-}
-
-.flag_grid {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr;
-  grid-gap: 75px;
-
-  margin-top: 40px;
-}
-
-#image {
-  max-width: 500%;
-  margin-left: 140px;
-  width: 100%;
-}
-
-#lebanon-flag {
-  margin-left: 120px;
-}
-
-#geo {
-    max-width: 60ch;
-    margin-left: 177px;
-    padding: 10px;
-    background-color: #eee;
-}
-
 
 #intro {
-  padding-left: 45px;
+  grid-area: intro;
   background-color: #eee;
+  padding: 10px;
   border-style: solid;
   border-color: rgb(123, 178, 116);
   border-width: 5px;
 }
 
+#pic {
+  grid-area: pic;
+}
+
+#flag {
+  grid-area: flag;
+}
+#geo {
+  grid-area: geography;
+  background-color: #eee;
+  padding: 10px;
+}
 
 #gov {
-  margin-top: 20px;
-  margin-left: 30px;
-  padding: 10px;
+  grid-area: government;
   background-color: #eee;
-  /* WANT THIS CENTERED */
+  padding: 10px;
 }
 
 #election {
-  /* WANT THIS CENTERED */
-  margin-top: 20px;
-  margin-left: 70px;
-  padding: 10px;
+  grid-area: election;
   background-color: #eee;
-  max-width: 60ch;
+  padding: 10px;
 }
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: rgb(211, 73, 78);
+  color: #ffffff;
+}
+
 #introtag {
   text-align: center;
 }
-#figcaption {
-  margin-left: 170px;
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  color: rgb(74, 162, 91);
 }
 
 a:link,
@@ -118,10 +93,4 @@ a:hover,
 a:active {
   text-decoration: double underline;
   color: rgb(123, 178, 116);
-}
-
-footer {
-  background-color: rgb(211, 73, 78);
-  color: #ffffff;
-  text-align: center;
 }
