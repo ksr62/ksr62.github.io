@@ -79,7 +79,6 @@ main {
 a:link,
 a:visited {
   text-decoration: none;
-  background-color: rgb(123, 178, 116);
   color: #ffffff;
   padding: 10px;
   display: inline-block;
@@ -88,7 +87,7 @@ a:visited {
 a:hover,
 a:active {
   text-decoration: double underline;
-  color: #043a33;
+  color: rgb(123, 178, 116);
 }
 
 footer {
