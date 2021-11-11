@@ -57,6 +57,7 @@ main {
 
 #image {
   max-width: 500%;
+  margin-left: auto;
 }
 
 #geo {
