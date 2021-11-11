@@ -27,7 +27,6 @@ main {
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr;
   gap: 20px;
-  background-color: #eee;
 }
 
 .bottom_grid {
@@ -48,6 +47,7 @@ main {
 
 #geo {
     max-width: 60ch;
+    background-color: #eee;
 }
 
 #image {
