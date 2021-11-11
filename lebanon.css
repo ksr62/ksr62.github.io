@@ -42,12 +42,9 @@ main {
 }
 
 
-#imagesize {
-  max-width: 70%
-}
 
 #image {
-  max-width: 100%;
+  max-width: 200%;
 }
 
 #intro {
