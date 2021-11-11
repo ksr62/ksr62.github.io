@@ -97,6 +97,7 @@ main {
   padding: 10px;
   background-color: #eee;
   max-width: 60ch;
+  font-size: 14px;
 }
 #introtag {
   text-align: center;
