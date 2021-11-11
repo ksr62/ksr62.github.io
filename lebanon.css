@@ -55,7 +55,7 @@ main {
 }
 
 #intro {
-  margin-left: 20px;
+  padding-left: 20px;
   border-style: solid;
   border-color: rgb(211, 73, 78);
   border-width: 10px;
