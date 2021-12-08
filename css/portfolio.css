@@ -193,7 +193,7 @@ footer {
   grid-area: workexp;
   padding-top: 18px;
   background-color: #eee;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 #hobby {
