@@ -181,6 +181,7 @@ footer {
 
 #education {
   grid-area: courses;
+  padding-left: 10px;
 }
 
 #workexp {
