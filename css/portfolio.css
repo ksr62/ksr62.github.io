@@ -181,8 +181,6 @@ footer {
 
 #education {
   grid-area: courses;
-  border-color: rgb(216, 228, 77);
-  border-width: 5px;
 }
 
 #workexp {
@@ -194,15 +192,11 @@ footer {
 #courses {
   grid-area: workexp;
   padding-top: 18px;
-  background-color: #eee;
-  padding-left: 10px;
 }
 
 #hobby {
   grid-area: hobby;
   padding-top: 18px;
-  border-color: rgb(216, 228, 77);
-  border-width: 5px;
 }
 
 h3 {
