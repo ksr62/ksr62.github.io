@@ -199,6 +199,7 @@ footer {
 #hobby {
   grid-area: hobby;
   padding-top: 18px;
+  padding-left: 10px;
 }
 
 h3 {
