@@ -192,13 +192,11 @@ footer {
 #courses {
   grid-area: workexp;
   padding-top: 18px;
-  background-color: #eee;
 }
 
 #hobby {
   grid-area: hobby;
   padding-top: 18px;
-  background-color: #eee;
 }
 
 h3 {
