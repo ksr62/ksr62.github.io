@@ -181,20 +181,24 @@ footer {
 
 #education {
   grid-area: courses;
+  background-color: #eee;
 }
 
 #workexp {
   grid-area: education;
+  background-color: #eee;
 }
 
 #courses {
   grid-area: workexp;
   padding-top: 18px;
+  background-color: #eee;
 }
 
 #hobby {
   grid-area: hobby;
   padding-top: 18px;
+  background-color: #eee;
 }
 
 h3 {
