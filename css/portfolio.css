@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#indexgrid {
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead masthead"
+    "intro pic"
+    "about about"
+    "work example"
+    "footer footer";
+  font-family: "Slabo 27px", serif; “Arial”, sans-serif;
+}
+header {
+  grid-area: masthead;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#nav {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  font-family: "Bebas Neue", cursive; “Arial”, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+#intro {
+  grid-area: intro;
+  background-color: #eee;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(216, 228, 77);
+  border-width: 5px;
+  font-size: 20px;
+}
+
+#pic {
+  grid-area: pic;
+  margin: 0;
+}
+
+#me {
+  grid-area: about;
+  background-color: #eee;
+  padding: 10px;
+}
+
+#works {
+  grid-area: work;
+  background-color: #eee;
+  padding: 10px;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#unhingedpic {
+  grid-area: example;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+a:visited {
+  color: rgb(216, 228, 77);
+}
+
+a:hover {
+  color: #808080;
+}
+
+a:active {
+  text-decoration: underline;
+  color: rgb(183, 71, 29);
+}
+
+/*THIS STARTS STYLING FOR MORE COOL STUFF PAGE*/
+#stuffgrid {
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead masthead masthead"
+    "intro pic pic"
+    "work example example"
+    "footer footer footer";
+  font-family: "Slabo 27px", serif; “Arial”, sans-serif;
+}
+
+#chivas {
+  grid-area: intro;
+  background-color: #eee;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#chivascopy {
+  grid-area: pic;
+  margin: 0;
+  border-style: solid;
+  border-color: rgb(216, 228, 77);
+  border-width: 5px;
+  padding: 10px;
+}
+
+
+#climate {
+  grid-area: work;
+  background-color: #eee;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#climatecopy {
+  grid-area: example;
+  margin: 0;
+  border-style: solid;
+  border-color: rgb(216, 228, 77);
+  border-width: 5px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/*THIS STARTS STYLING FOR RESUME PAGE*/
+#resumegrid {
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /*50%, 25%, 25% */
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead masthead masthead masthead"
+    "education education workexp workexp"
+    "courses courses hobby hobby"
+    "footer footer footer footer";
+  font-family: "Slabo 27px", serif; “Arial”, sans-serif;
+}
+
+#education {
+  grid-area: courses;
+}
+
+#workexp {
+  grid-area: education;
+}
+
+#courses {
+  grid-area: workexp;
+  padding-top: 18px;
+}
+
+#hobby {
+  grid-area: hobby;
+  padding-top: 18px;
+}
+
+h3 {
+  font-size: 25px;
+}
+footer {
+  grid-area: footer;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive; “Arial”, sans-serif;
+}
+
+footer p {
+  display: inline-block;
+}
